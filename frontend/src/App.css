@@ -1,0 +1,41 @@
+.d-central {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.form input,.form select {
+  margin-bottom: 30px;
+  font-size: 18px;
+  padding: 3px;
+}
+
+.form button {
+  font-size: 18px;
+  padding: 3px;
+  border-radius: 10px;
+  
+}
+
+@media screen and (max-width:500px) {
+
+  .form{
+    width: 60%;
+  }
+
+  .form input,.form select {
+    margin-bottom: 30px;
+    font-size: 12px;
+    padding: 1px;
+  }
+  
+}
